@@ -1,0 +1,225 @@
+/**
+ * projekt: Webdokumentar
+ **/
+
+ /* Google fonts */
+ /*Fredericka the great*/
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Inter&display=swap');
+
+
+ /* Variabler*/
+ :root {
+   /* farver */
+   --white: #fcfcfc;
+   --offwhite: #FFFEF2;
+   --beige: #ece2d7;
+   --green: #286328;
+   --pink: #F4D1E4;
+   --black: #1d0b09;
+
+   --color-primary: #6cac58;
+   --color-secondary: #50923e;
+   --color-tertiary: #427f37;
+   --color-quaternary: #316e32;
+   --color-quinary: #296331;
+
+   /* fonte */
+   --overskrift: 'Fredericka the Great', sans-serif; /* overskrifter */
+
+   /* whitespace */
+   --whitespace: .5rem;
+
+   /* teksturer ("skitse baggrund") */
+   --baggrund: url('../images/baggrund.png');
+ }
+
+ /* Smooth scroll */
+ html {
+   scroll-behavior: smooth;
+ }
+
+
+  /* Typography */
+  h1 {
+    font-family: var(--overskrift);
+    color: var(--black);
+    margin-top: var(--whitespace);
+    margin-bottom: var(--whitespace);
+  }
+
+  p{
+    color: #ffff;
+  }
+
+  *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+/* baggrund*/
+body {
+  background-image: var(--baggrund);
+  font-family: Fredericka the Great, sans-serif;
+  font-weight: 300;
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ /* Logo*/
+ .logo{
+   padding-left: 1000px;
+ }
+
+ .aftensol{
+   margin-left: 80%;
+ }
+
+ /* Knapper style */
+ .button-52 {
+   font-size: 18px;
+   font-weight: 200;
+   color: #ffff;
+   letter-spacing: 1px;
+   height: 50px;
+   padding: 13px 20px 13px;
+   outline: 0;
+   border: 1px solid black;
+   width: 500px;
+   cursor: pointer;
+   position: relative;
+   background-color: rgba(0, 0, 0, 0);
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   margin-left: 100px;
+   font-family: Fredericka the Great, sans-serif;
+ }
+
+ .button-52:after {
+   content: "";
+   background-color: #7faf8c;
+   width: 500px;
+   z-index: -1;
+   position: absolute;
+   height: 100%;
+   top: 7px;
+   left: 7px;
+   transition: 0.2s;
+ }
+
+ .button-52:hover:after {
+   top: 0px;
+   left: 0px;
+ }
+
+ @media (min-width: 768px) {
+   .button-52 {
+     padding: 13px 50px 13px;
+   }
+ }
+
+ /* Knapper style */
+ .button-53 {
+   font-size: 18px;
+   font-weight: 200;
+   color: #ffff;
+   letter-spacing: 1px;
+   padding: 13px 20px 13px;
+   outline: 0;
+   border: 1px solid black;
+   width: 500px;
+   cursor: pointer;
+   position: relative;
+   background-color: rgba(0, 0, 0, 0);
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   margin-left: 700px;
+   font-family: Fredericka the Great, sans-serif;
+ }
+
+ .button-53:after {
+   content: "";
+   background-color: #7faf8c;
+   width: 500px;
+   z-index: -1;
+   position: absolute;
+   height: 100%;
+   top: 7px;
+   left: 7px;
+   transition: 0.2s;
+ }
+
+ .button-53:hover:after {
+   top: 0px;
+   left: 0px;
+ }
+
+ @media (min-width: 768px) {
+   .button-53 {
+     padding: 13px 50px 13px;
+   }
+ }
+
+ /* Knapper style */
+ .button-54 {
+   font-size: 18px;
+   font-weight: 200;
+   color: #ffff;
+   letter-spacing: 1px;
+   padding: 13px 20px 13px;
+   outline: 0;
+   border: 1px solid black;
+   width: 500px;
+   cursor: pointer;
+   position: relative;
+   background-color: rgba(0, 0, 0, 0);
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   margin-left: 100px;
+   font-family: Fredericka the Great, sans-serif;
+ }
+
+ .button-54:after {
+   content: "";
+   background-color: #7faf8c;
+   width: 500px;
+   z-index: -1;
+   position: absolute;
+   height: 100%;
+   top: 7px;
+   left: 7px;
+   transition: 0.2s;
+ }
+
+ .button-54:hover:after {
+   top: 0px;
+   left: 0px;
+ }
+
+ @media (min-width: 768px) {
+   .button-54 {
+     padding: 13px 50px 13px;
+   }
+ }
+
+#ytplayer {
+  margin: 10% 18%;
+
+}
+
+ footer {
+   background-color: #7faf8c;
+   color: #ffff;
+   text-align: center;
+   min-height: 200px;
+   padding-top: 23px;
+   padding-bottom: 23px;
+   width: 100%;
+   font-family: Fredericka the Great, sans-serif;
+ }
